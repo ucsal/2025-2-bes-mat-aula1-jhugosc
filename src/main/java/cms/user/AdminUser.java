@@ -1,7 +1,7 @@
 package cms.user;
 
 public class AdminUser extends User {
-    public AdminUser(String id, String nome, String email, String password) {
+    public AdminUser(int id, String nome, String email, String password) {
         super(id, nome, email, password);
     }
 	
